@@ -1,0 +1,44 @@
+div {
+	height: 64vh;
+	width: 100vw;
+
+	display: flex;
+	flex-flow: column;
+	/* justify-content: center; */
+	align-items: center;
+
+	
+
+}
+
+textarea {
+	margin: 30px;
+	width: calc(100% - 60px);
+	color: #7cc5e4;
+	outline: none;
+	font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+	font-size: 16px;
+	border: none;
+	/* border: 1px solid #858585; */
+}
+
+button:active, button:focus,
+textarea:active, textarea:focus {
+	border: none;
+}
+
+button {
+	padding: 16px;
+	line-height: 0px;
+	display: inline-flex;
+	align-items: center; 
+	background-color: #dbdca3;
+	outline: none;
+	font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+	font-size: 16px;
+}
+
+
+* {
+	background-color: #1e1e1e;
+}
